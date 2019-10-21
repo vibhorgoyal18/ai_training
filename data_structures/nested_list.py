@@ -1,0 +1,1 @@
+# Extract Python from a nested list input_list =  [['SAS','R'],['Tableau','SQL'],['Python','Java']]
