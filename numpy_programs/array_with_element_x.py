@@ -18,11 +18,12 @@
 #  [1 1 1]
 #  [1 1 1]]
 
+import numpy as np
+
 int_x = int(input('Enter the integer value: '))
 rows_m = int(input('Enter the number of rows: '))
 cols_n = int(input('Enter the number of columns: '))
 
-import numpy as np
 
 # Create an array of m*n with all elements equal to 'x' using the tile() function
 array_x = np.tile(int_x, (rows_m, cols_n))

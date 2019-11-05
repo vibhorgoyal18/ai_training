@@ -3,7 +3,7 @@
 
 input_str = 'analytics'
 
-if input_str[0] in ('a','e','i','o','u'):
+if input_str[0] in ('a', 'e', 'i', 'o', 'u'):
     print('YES')
 else:
     print('NO')

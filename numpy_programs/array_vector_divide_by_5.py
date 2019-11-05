@@ -1,10 +1,11 @@
 # Given an array, 'array_3' divide each element with 5.
 # Hint: Create a vectorized function, then apply it to the array_3
 
+import numpy as np
+
 input_list = [[1, 2, 3, 4], [4, 7, 5, 6], [9, 0, 7, 8], [6, 7, 8, 5]]
 list_1 = input_list[0:2]
 list_2 = input_list[2:4]
-import numpy as np
 
 array_1 = np.array(list_1)
 array_2 = np.array(list_2)
